@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <!-- User Story #1: My product landing page should have a header element with a corresponding id="header". -->
+    <header id="header" class="">
+        <!-- User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo -->
+        <!-- would make a good image here. -->
+        <img id="header-img" src="" alt="">
+        <!-- User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar". -->
+        <!-- Disabled -->
+        <!-- Copy -->
+        <nav id="nav-bar" class="fixed-top">
+            <div class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Lenazhir VA Solutions</a>
+                    <div class="justify-content-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <!-- User Story #4: I can see at least three clickable elements inside the nav element, each with the -->
+                            <!-- class nav-link. -->
+                            <!-- User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding -->
+                            <!-- section of the -->
+                            <!-- landing page. -->
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#first-section">Home</a>
+                                <a class="nav-link" href="#price-section">Pricing</a>
+                                <a class="nav-link" href="#second-section">Features</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section id="first-section" class="container-fluid mx-0 row justify-content-center">
+            <div id="first-content" class="container col-lg-5 row">
+                <div class="">
+                    <H1 class="">
+                        YOUR PURE END-TO-END VIRTUAL ASSISTANT
+                    </H1>
+                    <p class=" mt-4">
+                        Save time, get a virtual assistant. Professional assistants for professional people. Stay
+                        organized, get an assistant.
+                    </p>
+                    <h3> We do things better.</h3>
+                </div>
+                <div id="div-main-btns" class="d-flex mt-5 row d-flex-sm-column justify-content-evenly">
+                    <div class="btn btn-lg btn-success rounded-pill col-8 col-md-5">
+                        <p class="mt-3">LEARN MORE</p>
+                    </div>
+                    <div id="btn-2" class="btn btn-lg btn-warning rounded-pill col-8 col-md-5">
+                        <p class="mt-3">HIRE NOW!</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="price-section" class="align-items-center">
+            <div id="pricing" class=" d-flex row justify-content-evenly py-3">
+                <div class="col-10 col-lg-4 justify-content-center row mb-3">
+                    <div class="card px-0"">
+                    <img src=" ./photos/family.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DAILY ASSISTANT</h5>
+                            <p class="card-text">Hire whenever you want, how long you want! No worries!</p>
+                            <a href="#" class="btn btn-success rounded-pill">View Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-lg-4 justify-content-center row mb-3">
+                    <div class="card px-0">
+                        <img src=" ./photos/business1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MOTHLY</h5>
+                            <p class="card-text">Need a virtual assistant for a month? Have a worry free month!</p>
+                            <a href="#" class="btn btn-success rounded-pill">View Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-lg-4 justify-content-center row mb-3">
+                    <div class="card px-0 ">
+                        <img src=" ./photos/business.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">LONG TERM</h5>
+                            <p class="card-text">Great discount awaits! Virtual assistant for life!</p>
+                            <a href="#" class="btn btn-success rounded-pill">View Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="second-section" class="container-fluid row flex-md-row d-flex flex-sm-column  ">
+            <div id="why" class="col-md-6 text-center row mx-0 align-items-center justify-content-center ">
+                <div class="col-md-10 col-sm-8">
+                    <div id="why-border" class=" py-5">
+                        <h2>
+                            WHY CHOOSE CONVERGE?
+                        </h2>
+                        <p class="pt-5 mb-2">
+                            We deliver end-to-end to empower your business with
+                            seamless experience. We do things better, so you experience better!
+                        </p>
+                        <h3>Organized, dependable and responsible!</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="div-video-container"
+                class="col-md-6 d-flex row text-center align-items-center justify-content-center py-3">
+                <!-- User Story #6: I can watch an embedded product video with id="video". -->
+                <h4>What they say about us.</h4>
+                <figure id="div-video" class="bg-light">
+                    <video id="video" controls loop poster="./photos/business.jpg">
+                        <source src="./video/back-to-nature-sample.mp4" type="video/mp4">
+
+                        <p>Your browser doesn't support HTML video. Here is a <a
+                                href="https://youtu.be/50XJ8IGbYO8">link to the video</a> instead.</p>
+                    </video>
+                </figure>
+            </div>
+
+        </section>
+
+        <section id="email-section" class=" d-flex row justify-content-center ">
+            <!-- User Story #7: My landing page has a form element with a corresponding id="form". -->
+            <div id="ask" class="col-md-6 order-1 order-md-2 row  justify-content-center">
+                <div class="col-10 row align-items-center">
+                    <div id="ask-border" class="">
+                        <div class=" row align-items-center ">
+                            <h4 class="text-center py-2 fs-1 ">Ask Us HOW?</h4>
+                        </div>
+                        <div class="">
+                            <p class="mt-3 text-center">Send us your questions and we are happy to assist you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 order-2 order-md-1 row justify-content-center align-items-center">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank"
+                    class="bg-success col-10 rounded rounded-3 row justify-content-center align-items-center">
+                    <div class="">
+                        <div class="mb-3">
+                            <!-- User Story #8: Within the form, there is an input field with id="email" where I can enter an email -->
+                            <!-- address. -->
+                            <!-- User Story #9: The #email input field should have placeholder text to let the user know what the field -->
+                            <!-- is for. -->
+                            <!-- User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an -->
+                            <!-- email address. -->
+                            <label for="exampleFormControlInput1" class="form-label fs-3 ">Send us a message</label>
+                            <input name="email" type="email" class="form-control" id="email"
+                                placeholder="name@example.com">
+                            <textarea class="mt-2 col-12" name="questions" id="questions" cols="75" rows="4"></textarea>
+                        </div>
+                        <div>
+                            <!-- User Story #11: Within the form, there is a submit input with a corresponding id="submit". -->
+                            <!-- User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock -->
+                            <!-- URL: -->
+                            <!-- https://www.freecodecamp.com/email-submit). -->
+
+                            <input type="submit" class="btn btn-outline-warning" id="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- User Story #13: The navbar should always be at the top of the viewport. -->
+
+        <!-- User Story #14: My product landing page should have at least one media query. -->
+
+        <!-- User Story #15: My product landing page should utilize CSS flexbox at least once. -->
+
+    </main>
+
+    <footer class="row justify-content-center justify-content-center">
+        <div class="col-10 text-center">
+            <p>© 2021 Lenazhir VA Solutions Inc.. All rights reserved.
+                Privacy Notice | Cookie Policy | Locations | Service Terms & Conditions</p>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
