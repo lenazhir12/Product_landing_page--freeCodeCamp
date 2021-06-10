@@ -34,8 +34,9 @@ User Story #13: The navbar should always be at the top of the viewport.
 
 User Story #14: My product landing page should have at least one media query.
 
-User Story #15: My product landing page should utilize CSS flexbox at least once.
+User Story #15: My product landing page should utilize CSS flexbox at least once. 
 
-##LINKS
-View it live here https://lenazhir12.github.io/freeCodeCamp-Product_landing_page/
+### Links
 
+- Solution URL: [View my solution on github](https://github.com/lenazhir12/freeCodeCamp-Product_landing_page.git)
+- Live Site URL: [View it live here](https://lenazhir12.github.io/freeCodeCamp-Product_landing_page/)
