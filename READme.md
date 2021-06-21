@@ -39,4 +39,4 @@ User Story #15: My product landing page should utilize CSS flexbox at least once
 ### Links
 
 - Solution URL: [View my solution on github](https://github.com/lenazhir12/freeCodeCamp-Product_landing_page.git)
-- Live Site URL: [View it live here](https://lenazhir12.github.io/freeCodeCamp-Product_landing_page/)
+- Live Site URL: [View it live here](https://lenazhir12.github.io/Product_landing_page--freeCodeCamp/)
